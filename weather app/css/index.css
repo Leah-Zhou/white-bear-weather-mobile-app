@@ -1,0 +1,80 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 6.5em 3em auto;
+  background-color: rgb(135, 206, 250);
+  width: 100%;
+  align-items: center;
+}
+
+.main-content{
+ background-size:auto;
+ background-blend-mode: color;
+}
+.icon {
+  width: 3em;
+}
+.title {
+  font-size: 1.35em;
+}
+.search-section {
+  margin: 8em 5em;
+  display: grid;
+  grid-auto-rows: 2em;
+  grid-row-gap: 2em;
+}
+.input-box {
+  border-radius: 0.3em;
+}
+.submit-btn {
+  background-color: rgb(135, 206, 250, 0.8);
+  border: none;
+  border-radius: 0.2em;
+}
+
+.show-none {
+  display: none;
+}
+
+.weather {
+  margin: 3em 2em;
+  display: grid;
+  grid-template-columns: 12em auto;
+  justify-items: center;
+  align-items: center;
+  grid-row-gap: 0.8em;
+  background-color: rgba(255,250,250,0.6);
+  padding: 2em;
+  border-radius:0.8em;
+  
+}
+.weather-icon {
+  width: 7em;
+}
+.temp-arrange {
+  display: inline;
+  padding: 0.3em;
+}
+#temp {
+  grid-column: 1/3;
+  justify-self: flex-start;
+}
+
+#area-name {
+  font-size: 2em;
+}
+#weather-main {
+  grid-column: 2/3;
+}
+.weather-infor {
+  grid-column: 1/2;
+  margin-top: 1em;
+  display: grid;
+  grid-row-gap: 1em;
+  justify-items: flex-start;
+  border-top: black solid 0.02em;
+  padding-top: 1em;
+}
